@@ -71,6 +71,7 @@ Bash
 
 1- Clone o repositório:
 git clone https://github.com/FireTchuGueras/PokePY
+
 cd [PokePY]
 
 2- Execute o arquivo principal:
