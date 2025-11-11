@@ -50,6 +50,9 @@ O jogo implementa um sistema completo de exploração, gestão e batalha:
 | `classes.py` | Define as classes base: **Pokemon**, **Player** e **Zone**. Contém a lógica de progressão (XP, Nível, Evolução) e o carregamento de assets. |
 | `battle_system.py` | Implementa a função principal de **batalha** (`battle`) e toda a lógica de **UI dos menus de combate**. |
 | `main.py` (assumido) | O ponto de entrada do jogo. Gerencia o *game loop*, a movimentação e a transição entre exploração e batalha. |
+| `backgrounds/` | Armazena as imagens de fundo para as diferentes zonas de batalha (zone1_bg.png, zone2_bg.png, etc.). |
+| `mapa/` | Contém os arquivos de máscara de grama (mapa_zonaX_mask.png) usados para detectar colisões e encontros aleatórios no mapa de exploração. |
+| `sprites/` | Armazena todos os sprites dos Pokémon (frontais e traseiros) e os assets do Avatar do Jogador e dos Tiles do mapa. |
 
 ---
 
@@ -65,6 +68,7 @@ pip install pygame
 Clone o repositório:
 
 Bash
+
 1- Clone o repositório:
 git clone https://github.com/FireTchuGueras/PokePY
 cd [PokePY]
