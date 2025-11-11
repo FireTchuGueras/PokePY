@@ -1,7 +1,7 @@
 import pygame
 import sys
 import random
-# Importa load_sprite e cores (incluindo as novas de UI)
+# Importa load_sprite e cores 
 from classes import (SCREEN_WIDTH, SCREEN_HEIGHT, BLACK, BUTTON_COLOR, SELECTED_COLOR, RED,
                      DARK_BLUE, LIGHT_GRAY, GREEN, BLUE, GRAY, WHITE, DARK_GREEN,
                      SHADOW_COLOR_DARK,
@@ -10,7 +10,7 @@ from classes import (SCREEN_WIDTH, SCREEN_HEIGHT, BLACK, BUTTON_COLOR, SELECTED_
                      BATTLE_BUTTON_HOVER, BATTLE_BUTTON_SELECTED,
                      HP_BAR_EMPTY, HP_BAR_LOW, HP_BAR_MEDIUM, HP_BAR_FULL,
                      BATTLE_BG_OVERLAY,
-                     load_sprite, load_background # <--- Importe também load_background
+                     load_sprite, load_background # 
                      )
 from classes import Player, Pokemon
 # Variáveis globais de fonte inicializadas como None.
@@ -296,15 +296,15 @@ def select_pokemon_in_battle(screen, player, current_pokemon, enemy, current_zon
 
     clock = pygame.time.Clock()
 
-    # Toast (mensagem curta) - não bloqueante
+    # Toast 
     toast_text = None
-    toast_expire = 0  # pygame time in ms when toast should disappear
+    toast_expire = 0  
     TOAST_DURATION_MS = 900
 
     while True:
         now = pygame.time.get_ticks()
 
-        # Fundo leve (consistente com resto da UI)
+        # Fundo leve
         screen.fill((230, 230, 240))
 
         # Caixa centralizada
@@ -313,7 +313,7 @@ def select_pokemon_in_battle(screen, player, current_pokemon, enemy, current_zon
         box_y = (SCREEN_HEIGHT - box_h) // 2
         box_rect = pygame.Rect(box_x, box_y, box_w, box_h)
 
-        # Caixa com borda e sombra simples (use suas funções se preferir)
+        # Caixa com borda e sombra simples 
         draw_rounded_box(screen, box_rect, (250, 250, 255), radius=18, shadow_color=(180, 180, 200), shadow_offset=(6, 6))
         pygame.draw.rect(screen, (200, 200, 220), box_rect, 2, border_radius=18)
 
@@ -423,7 +423,7 @@ def select_pokemon_in_battle(screen, player, current_pokemon, enemy, current_zon
 
         clock.tick(60)
 
-    # fallback de segurança (não costuma chegar aqui)
+    # fallback de segurança 
     if current_pokemon is None or not current_pokemon.is_alive():
         for p in player.team:
             if p.is_alive():
@@ -435,7 +435,7 @@ def select_pokemon_in_battle(screen, player, current_pokemon, enemy, current_zon
 # Em battle_system.py
 
 # Modifica a assinatura para receber 'current_zone'
-def battle(screen, player, current_pokemon, enemy, current_zone):  # <--- MODIFICADO
+def battle(screen, player, current_pokemon, enemy, current_zone):  
     if not current_pokemon.is_alive():
         return "switch_required"
 
@@ -637,4 +637,5 @@ def battle(screen, player, current_pokemon, enemy, current_zone):  # <--- MODIFI
     if current_pokemon.is_alive():
         current_pokemon.gain_xp(50 * enemy.level)
         return "win"
+
     return "lose"
