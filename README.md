@@ -37,7 +37,7 @@ O jogo implementa um sistema completo de exploração, gestão e batalha:
 
 **Stack de Desenvolvimento:**
 
-<img src="https://logospng.org/logo-python/" alt="HTML5 Badge"> 
+<img src="https://logospng.org/wp-content/uploads/python.png" alt="HTML5 Badge"> 
 
 ---
 
