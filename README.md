@@ -1,6 +1,5 @@
 # 🎮 PokePY
 ---
-> "Trabalho Avaliativo"
 > 
 > "Lógica de Programação II"
 > 
