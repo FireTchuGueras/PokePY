@@ -1,8 +1,11 @@
 # 🎮 PokePY
 ---
 > "Trabalho Avaliativo"
+> 
 > "Lógica de Programação II"
+> 
 > "Alunos: Maycon Willians, Jéssica Freitas, João Lucas, Eduardo Lopes e Luiz Ricardo"
+> 
 > **Este é um RPG 2D de simulação de Pokémon desenvolvido em Python com a biblioteca Pygame.
 O jogo foca na gestão do time, exploração por zonas e batalhas de turno contra inimigos selvagens. Ele apresenta um sistema de UI moderna com menus estilizados  e uma lógica de progressão funcional, onde seus Pokémon ganham XP, sobem de nível, evoluem e têm seu poder de ataque escalado, tornando o treinamento essencial para avançar pelas diferentes zonas de dificuldade. O sistema inclui gerenciamento de itens (Poções, Repelentes) e uma mecânica de troca e fuga durante o combate.**
 
