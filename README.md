@@ -60,7 +60,7 @@ O jogo implementa um sistema completo de exploração, gestão e batalha:
 
 ### **Pré-requisitos**
 
-Certifique-se de ter **Python 3.x** e o pacote **Pygame** instalados.
+Certifique-se de ter **Python 3.x14 ou Superior** e o pacote **Pygame** instalados.
 
 Instala o Pygame (Obrigatório)
 pip install pygame
