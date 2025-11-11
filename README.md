@@ -62,7 +62,10 @@ O jogo implementa um sistema completo de exploração, gestão e batalha:
 
 Certifique-se de ter **Python 3.x14 ou Superior** e o pacote **Pygame** instalados.
 
+IDE Recomendada: PyCharm
+
 Instala o Pygame (Obrigatório)
+
 pip install pygame
 
 Clone o repositório:
