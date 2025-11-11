@@ -35,9 +35,9 @@ O jogo implementa um sistema completo de exploração, gestão e batalha:
 | **Framework de Jogo** | Pygame | Renderização gráfica, loop de jogo e eventos. |
 | **Assets/Estilo** | PNGs/Masks | Sprites, fundos e detecção de área de grama. |
 
-**Meu Stack de Desenvolvimento:**
+**Stack de Desenvolvimento:**
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge"> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge">
+<img src="https://logospng.org/logo-python/" alt="HTML5 Badge"> 
 
 ---
 
